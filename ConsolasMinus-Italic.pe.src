@@ -1,0 +1,11 @@
+#!/usr/bin/fontforge -script
+
+consolas = "src/consolai.ttf"
+
+Open(consolas)
+
+sinclude(ClearGlyphs.inc)
+
+SetFontNames("ConsolasMinus-Italic", "ConsolasMinus", "ConsolasMinus Italic", "Book")
+Generate("ConsolasMinus-Italic.ttf")
+Close()
