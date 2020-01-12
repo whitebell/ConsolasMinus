@@ -11,7 +11,7 @@ Consolas は非常にいいフォントなのだけど、 VSCode で Cosolas を
 
 1. FontForge
 2. Consolas フォント
-3. gmake
+3. gmake （nmake不可）
 4. m4
 
 ## 使い方
