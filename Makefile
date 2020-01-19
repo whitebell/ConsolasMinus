@@ -5,5 +5,5 @@ ttf: ConsolasMinus.ttf ConsolasMinus-Italic.ttf ConsolasMinus-Bold.ttf ConsolasM
 %.ttf: %.pe
 	$(FONTFORGE) $<
 
-%.pe: %.pe.src
+%.pe: %.pe.src ClearGlyphs.inc
 	m4 $< > $@
